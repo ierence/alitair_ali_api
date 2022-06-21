@@ -67,7 +67,7 @@ def update_our_xml(filename, target_filename, merchant_products: dict):
 
 @click.command()
 @click.option('--m', type=str, required=True,
-              help='Имя файла с фидом продавца в папке /feeds')
+              help='Имя файла с фидом поставщика в папке /feeds')
 @click.option('--o', type=str, required=True,
               help='Имя файла с нашим фидом /feeds')
 @click.option('--n', type=str, required=False, default=None,
